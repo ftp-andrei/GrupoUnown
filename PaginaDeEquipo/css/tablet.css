@@ -1,6 +1,7 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
     /* ----------- Header ------------ */
+
     header {
         text-align: center;
     }
@@ -13,6 +14,7 @@
     /* ----------- Fin Header ------------ */
 
     /* ----------- Nav ------------ */
+
     nav ul {
         display: flex;
         flex-direction: row;
@@ -21,7 +23,16 @@
 
     /* ----------- Fin Nav ------------ */
 
+    /* ----------- Hero ------------ */
+
+    .hero img{
+        max-width: 100%;
+    }
+
+    /* ----------- Fin Hero ------------ */
+
     /* ----------- Tabla Home ------------ */
+    
     table {
         display: none;
     }
