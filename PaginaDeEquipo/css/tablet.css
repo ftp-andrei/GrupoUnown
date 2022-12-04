@@ -4,8 +4,8 @@
 
     header {
         text-align: center;
-        background: rgb(255,255,255);
-        background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%); 
+        background: rgb(255, 255, 255);
+        background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 26%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
     }
 
     header img {
@@ -13,7 +13,7 @@
         width: 50%;
     }
 
-    figcaption{
+    figcaption {
         font-size: 1.2em;
         font-style: italic;
     }
@@ -32,14 +32,14 @@
 
     /* ----------- Hero ------------ */
 
-    .hero img{
+    .hero img {
         max-width: 100%;
     }
 
     /* ----------- Fin Hero ------------ */
 
     /* ----------- Tabla Home ------------ */
-    
+
     table {
         display: none;
     }
@@ -91,19 +91,30 @@
     /* ----------- Fin Footer ------------ */
     /* ----------- Video ------------ */
 
-    .videoMain{
+    .videoMain {
         text-align: center;
     }
 
-    .videoMain p{
+    .videoMain p {
         font-weight: bold;
         text-shadow: 0.05em 0.05em #fff;
     }
 
-    .videoMain video{
+    .videoMain video {
         margin-top: 2em;
         max-width: 80%;
     }
 
     /* ----------- Fin Video ------------ */
+    /* ----------- Podcast ------------ */
+
+    article h2 {
+        text-shadow: 0.05em 0.05em #fff;
+    }
+
+    .container-audio {
+        text-align: center;
+    }
+
+    /* ----------- Fin Podcast ------------ */
 }
