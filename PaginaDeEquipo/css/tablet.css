@@ -4,11 +4,18 @@
 
     header {
         text-align: center;
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%); 
     }
 
     header img {
         max-width: 100%;
-        width: 75%;
+        width: 50%;
+    }
+
+    figcaption{
+        font-size: 1.2em;
+        font-style: italic;
     }
 
     /* ----------- Fin Header ------------ */
@@ -82,4 +89,21 @@
     }
 
     /* ----------- Fin Footer ------------ */
+    /* ----------- Video ------------ */
+
+    .videoMain{
+        text-align: center;
+    }
+
+    .videoMain p{
+        font-weight: bold;
+        text-shadow: 0.05em 0.05em #fff;
+    }
+
+    .videoMain video{
+        margin-top: 2em;
+        max-width: 80%;
+    }
+
+    /* ----------- Fin Video ------------ */
 }
