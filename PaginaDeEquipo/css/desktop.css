@@ -19,6 +19,9 @@
     img{
         max-width: 100%;       
     }
+    video{
+        max-width: 100%;
+    }
     figure{
         line-height:0;
     }
@@ -61,7 +64,9 @@
     .lista{
         display: none;
     }
-    
+    .videoPokemon video{
+        max-width: 80%;
+    }
     /* CSS AUDIO */
     .container-audio {
         width: 66%;
