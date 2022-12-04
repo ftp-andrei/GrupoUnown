@@ -3,7 +3,7 @@
   <head>
     <!-- link section -->
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/desktop.css"/>
+    <link rel="stylesheet" href="css/desktop.css" />
     <link rel="stylesheet" href="css/tablet.css" />
     <link rel="stylesheet" href="css/mobile.css" />
     <link
@@ -15,17 +15,18 @@
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="Página Video del equipo Unown para el trabajo en equipo de DIW" />
-    <meta name="keywords" content="HTML, CSS, Video, Homework, DIW, Equipo" />
+      content="Página Podcast del equipo Unown para el trabajo en equipo de DIW" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, Podcast, Homework, DIW, Equipo, audio" />
     <meta
       name="author"
       content="Daniel Alonso, Andrei Miu, Diego Extremiana, Álex Pérez, Álvaro Lozano" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- end of meta section -->
-    <title>Video</title>
+    <title>Podcast</title>
   </head>
-
   <body>
     <div class="headernav">
       <header>
@@ -36,8 +37,8 @@
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="podcast.html">Podcast</a></li>
-          <li><a href="#">Vídeo</a></li>
+          <li><a href="#">Podcast</a></li>
+          <li><a href="video.html">Vídeo</a></li>
         </ul>
       </nav>
     </div>
@@ -50,10 +51,27 @@
       </figure>
     </div>
     <main>
-      <video src="video.mp4" controls></video>
-      <p>Video creado por el GrupoUnown</p>
+      <article>
+        <h2>Podcast GrupoUnown</h2>
+        <p id="textArriba">
+          Los podcasts son una serie de episodios grabados en audio y
+          transmitidos online. Estos pueden ser grabados en diferentes formatos,
+          siendo los más comunes entrevistas entre invitado y presentador y
+          grabaciones individuales donde el presentador (o presentadores)
+          comenta sobre un tema específico.
+        </p>
+        <p id="textAbajo">
+          Sin mas, les dejamos un podcast creado por nosotros.
+        </p>
+        <div class="container-audio">
+            <audio controls>
+                <source src="media/audio/podcastPokemon.mp3" type="audio/mp3">
+                Your browser dose not Support the audio Tag
+            </audio>
+        </div>
+ 
+      </article>
     </main>
-
     <footer>
       <a href="https://github.com/ftp-andrei/GrupoUnown">Grupo Unown</a>
       <p>Diego Extremiana</p>
