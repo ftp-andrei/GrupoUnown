@@ -24,42 +24,15 @@ table{
     display: none;
 }
 
-h3{
-    color: white;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    text-align: center;
-}
-
 .lista{
     padding-top: 0.5em;
 }
 
-.pink,
-.yellow,
-.red,
-.blue,
-.white{
-    margin: 0;
-    padding-bottom: 0.5em;
-    font-weight: bolder;
-}
-
-.pink{
-    color: pink;
-}
-
-.yellow{
-    color: yellow;
-}
-.red{
-    color: #8c0000;
-}
-.blue{
-    color: blue;
-}
-.white{
+.lista p{
     color: white;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .lista ul{
@@ -80,8 +53,19 @@ h3{
     padding-bottom: 0;
 }
 
+footer a{
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: center;
+}
+
 footer p {
+    display: flex;
+    flex-direction: row;
     border: none;
+    justify-content: space-around;
+    margin: 0;
+    padding:0.5em;
 }
 
 a:link,
