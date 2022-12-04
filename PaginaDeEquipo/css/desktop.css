@@ -35,6 +35,9 @@
     h2{
         margin: 0;
     }
+    video{
+        max-width: 100%;
+    }
     .headernav{
         background: linear-gradient(0deg, rgba(112, 85, 250, 1) 0%, #23062f 100%);
         font-size: 1.6em;
