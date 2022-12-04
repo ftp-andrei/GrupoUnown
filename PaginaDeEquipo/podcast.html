@@ -25,7 +25,6 @@
     <!-- end of meta section -->
     <title>Podcast</title>
   </head>
-
   <body>
     <div class="headernav">
       <header>
@@ -51,16 +50,25 @@
     </div>
     <main>
       <article>
-        <h2>Podcast Pokémon</h2>
-        <p>Podcast realizado por el GrupoUnown hablando sobre Pokémon.</p>
-        <audio controls>
-          <source src="media/audio/podcastPokemon.ogg" type="audio/ogg" />
-          <source src="media/audio/podcastPokemon.mp3" type="audio/mpeg" />
-          Tu navegador no soporta la extension de audio.
-        </audio>
+        <h2>Podcast GrupoUnown</h2>
+        <p id="textArriba">
+          Los podcasts son una serie de episodios grabados en audio y
+          transmitidos online. Estos pueden ser grabados en diferentes formatos,
+          siendo los más comunes entrevistas entre invitado y presentador y
+          grabaciones individuales donde el presentador (o presentadores)
+          comenta sobre un tema específico.
+        </p>
+        <p id="textAbajo">
+          Sin mas, les dejamos un podcast creado por nosotros.
+        </p>
+        <div class="container-audio">
+            <audio controls>
+                <source src="media/audio/podcastPokemon.mp3" type="audio/mp3">
+                Your browser dose not Support the audio Tag
+            </audio>
+        </div>
       </article>
     </main>
-
     <footer>
       <a href="https://github.com/ftp-andrei/GrupoUnown">Grupo Unown</a>
       <p>Diego Extremiana</p>
@@ -71,3 +79,4 @@
     </footer>
   </body>
 </html>
+
