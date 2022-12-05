@@ -19,6 +19,9 @@
     img{
         max-width: 100%;       
     }
+    video{
+        max-width: 100%;
+    }
     figure{
         line-height:0;
     }
@@ -34,6 +37,9 @@
     }
     h2{
         margin: 0;
+    }
+    video{
+        max-width: 100%;
     }
     .headernav{
         background: linear-gradient(0deg, rgba(112, 85, 250, 1) 0%, #23062f 100%);
@@ -58,7 +64,9 @@
     .lista{
         display: none;
     }
-    
+    .videoPokemon video{
+        max-width: 80%;
+    }
     /* CSS AUDIO */
     .container-audio {
         width: 66%;
